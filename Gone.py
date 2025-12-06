@@ -105,8 +105,9 @@ Peace = p(function)
 discard, tools = meditate(Peace)
 
 # understand(keys_of_knowledge) (uses stored wisdom with keys to obtain original
-# meditated on bystr, then unpack it, since we orig packed.
+# meditated on bystr
 doit = understand(tools)
+# then unpack it, since we packed orig, and execute 
 u(doit)(":)")
 
 
