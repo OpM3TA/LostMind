@@ -94,7 +94,7 @@ def understand(keys_of_knowledge):
 
     return bytes(out)
 
-
+"""
 def function(a):
     print("Hello, Peaceful World", a)
 
@@ -109,7 +109,12 @@ discard, tools = meditate(Peace)
 doit = understand(tools)
 # then unpack it, since we packed orig, and execute 
 u(doit)(":)")
+"""
 
+# for ex,  below recreates and execs the commented out function above.
+keys = [146, 184, 13, 156, 43, 25, 227, 245, 228, 17, 230, 42, 102, 83, 98, 95, 124, 71, 147, 68, 188, 9, 243, 196, 7, 79, 55, 90, 30, 51, 51, 35, 81, 108, 42, 165, 176, 160, 151, 22, 24, 44, 27, 25, 210, 32, 58, 160, 30, 106, 170, 241, 165, 29, 199, 164, 247, 234, 185, 212, 57, 54, 191, 111, 102, 170, 8, 236, 92, 238, 214, 225, 107, 28, 100, 15, 106, 84, 53, 75, 113, 188, 39, 93, 53, 233, 32, 105, 96, 51, 89, 202]
+hey = u(understand(keys))
+hey(":)")
 
 
 
